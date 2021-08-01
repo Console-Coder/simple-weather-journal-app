@@ -1,0 +1,67 @@
+@media (min-width:600px) {
+    #wthr-form {
+        border: 2px dotted gray;
+        padding: 9px;
+        max-width: 65%;
+    }
+}
+
+@media (max-width:599px) {
+    fieldset {
+        max-width: 98%;
+    }
+}
+
+body {
+    margin: 6px;
+    color: aqua;
+    background-color: darkslategray;
+    font-size: 1.2em;
+}
+
+.h1-title,legend {
+    text-align: center;
+    background-color: rgba(62, 150, 35, 0.233);
+}
+
+p {
+    max-width: 82%;
+}
+
+input[type="text"] {
+    min-height: 32px;
+}
+
+textarea {
+    min-width: 56%;
+    resize: vertical;
+}
+
+.mrgn-up {
+    margin-top: 9px;
+}
+
+form button {
+    min-width: 32px;
+    min-height: 32px;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+    background-color: rosybrown;
+    border: 2px solid tomato;
+    border-radius: 5% 5%;
+    text-transform: uppercase;
+}
+
+form button:active {
+    background-color: purple;
+    color: chartreuse;
+    border: 4px solid red
+}
+
+#entryHolder,#endpoint-output{
+    border: 1px solid gray;
+    margin: 6px;
+    padding: 9px;
+    width: fit-content;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Gamal Ibrahim">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Weather Journal</title>
+</head>
+
+<body>
+  <div id="outer-container">
+    <h1 class="h1-title">Weather Journal Web App</h1>
+    <p>Please note that the default country location is US
+    </p>
+    <form id="wthr-form">
+      <fieldset>
+        <legend>
+		Fill the information below to get your weather data!
+		</legend>
+        <div class="mrgn-up">
+          <label>Your Zip code:<br></label>
+          <input type="text" id="zip" placeholder="enter zip code here">
+        </div>
+        <div class="mrgn-up">
+          <label>How are you feeling today?<br></label>
+          <textarea rows="4" id="feeling"></textarea>
+        </div>
+        <div>
+          <button type="button" id="generate">Tell me the weather and the end point data</button>
+        </div>
+      </fieldset>
+    </form>
+	<p>Weather data:</p>
+	
+		<div id = "entryHolder">
+	
+    <div id = "date"></div> 
+   <div id = "temp"></div>
+   <div id = "content"></div>
+   
+		</div>
+		<p>End-point data:</p>
+		<div id="endpoint-output"></div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
